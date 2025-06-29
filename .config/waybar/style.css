@@ -1,0 +1,154 @@
+@import "colors.css";
+
+*{
+  font-family: CaskaydiaMono Nerd Font Mono;
+  font-size: 12px;
+  font-weight: bold;
+  color: @on_secondary_container;
+
+
+}
+
+window#waybar {
+  background-color: transparent;
+    padding: 0;
+    margin: 0;
+}
+
+#clock {
+    background: RGBA(0, 0, 0, 0.4);
+    border-radius: 16px;
+    padding: 1px 4px 1px 4px;
+    margin: 0px;
+    border: 2px solid @primary_container;
+}
+#memory {
+    background: RGBA(0, 0, 0, 0.4);
+    border-radius: 16px;
+    padding: 1px 4px 1px 4px;
+    margin: 0px;
+    border: 2px solid @primary_container;
+}
+
+#custom-notification {
+    background: RGBA(0, 0, 0, 0.4);
+    border-radius: 16px;
+    padding: 1px 4px 1px 4px;
+    margin: 0px;
+    border: 2px solid @primary_container;
+}
+
+
+#window {
+  background-color: rgba(0,0,0,0.4);
+  border-radius: 16px;
+  padding: 1px 4px 1px 4px;
+  margin: 0px;
+  border: 2px solid @primary_container;
+}
+
+#pulseaudio {
+    background-color: rgba(0,0,0,0.4);
+  border-radius: 16px;
+  padding: 1px 4px 1px 4px;
+  margin: 0px;
+  border: 2px solid @primary_container;
+}
+
+#workspaces {
+  background-color: rgba(0,0,0,0.4);
+  border-radius: 16px;
+  padding: 1px 4px 1px 4px;
+  margin: 0px;
+  border: 2px solid @primary_container;
+}
+
+
+
+
+
+
+#workspaces button {
+  border-radius: 16px;
+  padding: 0px 1px;
+  margin: 0px;
+}
+
+#workspaces button:hover {
+  border-radius: 16px;
+  padding: 0px 1px;
+  margin: 0px;
+}
+
+#tray {
+  background-color: rgba(0,0,0,0.4);
+  border-radius: 16px;
+  margin: 0px;
+  padding: 1px 4px 1px 4px; 
+  border: 2px solid @primary_container;
+}
+
+#custom-power {
+  background-color: rgba(0,0,0,0.4);
+  border-radius: 16px;
+  margin: 0px;
+  font-size: 14px;
+  padding: 1px 4px 1px 4px; 
+  border: 2px solid @primary_container;
+}
+
+#custom-weather {
+  background-color: rgba(0,0,0,0.4);
+  border-radius: 16px;
+  margin: 0px;
+  padding: 4px 4px 1px 6px;
+  border: 2px solid @primary_container;
+}
+
+#custom-pacman:hover {
+  border: 2px solid @on_primary;
+  background-color: rgba(0,0,0,0.6);
+}
+
+#pulseaudio:hover {
+  border: 2px solid @on_primary;
+  background-color: rgba(0,0,0,0.6);
+}
+
+#custom-wofi:hover {
+  border: 2px solid @on_primary;
+  background-color: rgba(0,0,0,0.6);
+}
+
+
+#custom-wofi {
+  background-color: rgba(0,0,0,0.4);
+  border-radius: 16px;
+  font-size: 16px;
+  margin: 0px 0px 0px 2px;
+  padding: 0px 8px 0px 4px;
+  border: 2px solid @primary_container;
+
+}
+
+#workspaces button.urgent {
+    background-color: @on_error;
+    border-radius: 16px;
+}
+
+
+#custom-pacman {
+  background-color: rgba(0,0,0,0.4);
+  border-radius: 16px;
+  margin: 0px;
+  padding: 3px 4px 2px 4px;
+  border: 2px solid @primary_container;
+
+}
+
+
+
+
+tray > .passive {
+  -gtk-icon-effect: dim;
+}
