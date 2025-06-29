@@ -1,0 +1,6 @@
+mode=drun
+allow_images=true
+image_size=38
+width=600
+height=400
+
