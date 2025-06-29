@@ -1,0 +1,52 @@
+@import "/home/dipher/.config/wofi/colors.css";
+
+
+*{
+ border: none;
+ box-shadow: none;
+ outline: none;
+}
+
+window {
+  font-size: 24px;
+  font-family: "Creato Display";
+	background-color: @on_secondary_fixed;
+	border-radius: 8px;
+  border: 3px solid @surface;
+}
+
+#entry:selected {
+	background-color: @on_secondary_container;
+}
+
+#entry #text{
+	padding: 0px 0px 0px 10px;
+	font-weight: normal;
+	color: @secondary_fixed;
+}
+
+#entry #text:selected {
+  color: @surface_container_low;
+}
+
+#entry {
+	padding: 5px 10px;
+	border-radius: 20px;
+}
+
+#text:selected {
+	color: @scrim;
+}
+
+#inner-box {
+	margin: 10px;
+	background-color: @on_primary_container_fixed_varient;
+	opacity: 0.90;
+  border-radius: 8px;
+}
+
+#input{
+	background-color: @on_secondary_fixed;
+  border: 3px solid @primary;
+  border-radius: 8px;
+}
